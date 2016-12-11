@@ -6,6 +6,8 @@
 
 # dependencies
 /node_modules
+/node_moduless-mine
+/node_moduless-others
 /bower_components
 
 # IDEs and editors
