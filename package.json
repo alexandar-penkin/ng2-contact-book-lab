@@ -32,22 +32,22 @@
     "bootstrap": "^3.3.7"
   },
   "devDependencies": {
-      "@types/core-js": "^0.9.34",
-      "@types/node": "^6.0.45",
-  
-        "angular2-template-loader": "^0.5.0",
-        "awesome-typescript-loader": "^2.2.4",
-        "css-loader": "^0.25.0",
-        "extract-text-webpack-plugin": "^1.0.1",
-        "file-loader": "^0.9.0",
-        "html-loader": "^0.4.4",
-        "html-webpack-plugin": "^2.22.0",
-        "style-loader": "^0.13.1",
+  "@types/core-js": "^0.9.34",
+  "@types/node": "^6.0.45",
 
-        "typescript": "^2.0.3",
-        "webpack": "^1.13.2",
-        "webpack-dev-server": "^1.16.2",
-        "webpack-merge": "^0.14.1",
-        "webpack-validator": "^2.2.9"
+  "angular2-template-loader": "^0.5.0",
+  "awesome-typescript-loader": "^2.2.4",
+  "css-loader": "^0.25.0",
+  "extract-text-webpack-plugin": "^1.0.1",
+  "file-loader": "^0.9.0",
+  "html-loader": "^0.4.4",
+  "html-webpack-plugin": "^2.22.0",
+  "style-loader": "^0.13.1",
+
+  "typescript": "^2.0.3",
+  "webpack": "^1.13.2",
+  "webpack-dev-server": "^1.16.2",
+  "webpack-merge": "^0.14.1",
+  "webpack-validator": "^2.2.9"
   }
 }
