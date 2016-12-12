@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "system",
+        "module": "commonjs",
         "moduleResolution": "node",
         "sourceMap": true,
         "emitDecoratorMetadata": true,
@@ -9,9 +9,8 @@
         "removeComments": false,
         "noImplicitAny": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "dist",
-        "lib": [ "dom", "es5", "es2015.collection", "es2015.promise" ]
+        "outDir": "dist"
     },
-    "include": [ "app/**/*" ],
+    "include": [ "src/**/*" ],
     "exclude": [ "node_modules", "**/*.spec.ts" ]
 }
