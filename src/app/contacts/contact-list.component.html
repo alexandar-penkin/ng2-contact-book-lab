@@ -1,1 +1,7 @@
 <h2>Contact List</h2>
+<p><i>Pick a contact from the list</i></p>
+<ul class="items" >
+    <li *ngFor="let contact of contacts" class="contact" [class.selected]="contact.id === selectedId"  (click)="selectItem(contact)" [title]="contact.name">
+        <span class="item-badge">{{contact.id}}</span> {{contact.name}} {{contact.family}} {{contact.phone}}
+    </li>
+</ul>
