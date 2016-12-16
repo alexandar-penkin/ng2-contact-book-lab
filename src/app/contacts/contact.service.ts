@@ -24,12 +24,6 @@ export class ContactService {
             .toPromise();
     }
 
-    private extractData(res: Response) {
-        let body = res.json();
-        console.log(body);
-        return body || { };
-    }
-
     private handleErrorObservable(error: Response | any) {
         let errMsg: string = error.message ? error.message : error.toString();
         console.error(errMsg);

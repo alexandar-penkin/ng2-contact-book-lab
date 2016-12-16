@@ -11,7 +11,10 @@ export class ContactListComponent implements OnInit {
   public contacts: Contact[] = [];
   public selectedId: number;
 
-  constructor( private service: ContactService ) { }
+  constructor(
+    private service: ContactService,
+    private router: Router
+  ) { }
 
   public ngOnInit() {
       this.service.getContacts().then(
@@ -21,6 +24,6 @@ export class ContactListComponent implements OnInit {
 
   public selectItem(contact: Contact) {
     this.selectedId = contact.id;
-    // this.router.navigate(['/contact', contact.id]);
+    this.router.navigate(['/contact', contact.id]);
   }
 }

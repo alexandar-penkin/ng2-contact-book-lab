@@ -9,7 +9,8 @@ import { ContactDetailComponent }  from './contacts/contact-detail.component';
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: ContactListComponent },
-      { path: 'details', component: ContactDetailComponent }
+      { path: 'contact', component: ContactDetailComponent },
+      { path: 'contact/:id', component: ContactDetailComponent }
     ])
   ],
   exports: [
